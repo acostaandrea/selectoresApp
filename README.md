@@ -1,3 +1,13 @@
+# Build en GitHub
+# Install del-cli
+Run `npm install del-cli --save-dev`
+
+# Install copyfiles
+Run `npm i copyfiles --save-dev`
+
+# Run build
+Run `npm run build:github` to generate the build
+
 # Selectores
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
