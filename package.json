@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run envs && ng serve",
+    "start-test": "npm run envs && ng serve --configuration test",
     "envs": "node ./scripts/set-envs.js",
     "build": "ng build",
     "build:href": "ng build --base-href ./",
@@ -11,7 +12,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "del docs",
-    "copy:dist": "copyfiles -f ./dist/selectores/* ./docs"
+    "copy:dist": "copyfiles -f ./dist/selectores/* ./docs",
+    "test:e2e": "npm cypres run"
   },
   "private": true,
   "dependencies": {
