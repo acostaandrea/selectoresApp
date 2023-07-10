@@ -20,5 +20,4 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: ./docs
-          target-folder: ./docs 
+          folder: docs/selectores
